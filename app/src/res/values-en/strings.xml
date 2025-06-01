@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CineFan</string>
+    <string name="nombre_usuario">Username</string>
+    <string name="contrasena">Password</string>
+    <string name="correo">Email</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="registrarse">Sign up</string>
+    <string name="no_tienes_cuenta">Don\'t have an account? Sign up</string>
+    <string name="ya_tienes_cuenta">Already have an account? Login</string>
+    <string name="error_campo_vacio">This field cannot be empty</string>
+    <string name="error_login">Incorrect username or password</string>
+    <string name="feed_resenas">Reviews feed</string>
+    <string name="peliculas">Movies</string>
+    <string name="mapa">Location</string>
+    <string name="cerrar_sesion">Logout</string>
+    <string name="bienvenido">Welcome</string>
+</resources>

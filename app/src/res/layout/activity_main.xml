@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/color_fondo">
+    
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo_cinefan" />
+    
+    <TextView
+        android:id="@+id/texto_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="@string/bienvenido"
+        android:textColor="@color/color_texto"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/boton_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/feed_resenas"
+        android:background="@drawable/fondo_boton"
+        android:textColor="@android:color/white"
+        android:padding="16dp" />
+    
+    <Button
+        android:id="@+id/boton_peliculas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/peliculas"
+        android:background="@drawable/fondo_boton"
+        android:textColor="@android:color/white"
+        android:padding="16dp" />
+    
+    <Button
+        android:id="@+id/boton_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/mapa"
+        android:background="@drawable/fondo_boton"
+        android:textColor="@android:color/white"
+        android:padding="16dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Música de fondo"
+            android:textColor="@color/color_texto"
+            android:textSize="16sp" />
+        
+        <Switch
+            android:id="@+id/switch_musica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/boton_cerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cerrar_sesion"
+        android:background="@drawable/fondo_boton_secundario"
+        android:textColor="@color/color_texto"
+        android:padding="16dp" />
+    
+</LinearLayout>

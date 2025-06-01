@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primario">#ac6cfc</color>
+    <color name="color_primario_oscuro">#9c68f8</color>
+    <color name="color_acento">#be84fc</color>
+    <color name="color_secundario">#b471fc</color>
+    <color name="color_fondo">#1a1a2e</color>
+    <color name="color_superficie">#16213e</color>
+    <color name="color_texto">#ffffff</color>
+    <color name="color_texto_secundario">#b0b0b0</color>
+    <color name="color_error">#ff5252</color>
+    <color name="color_exito">#4caf50</color>
+</resources>

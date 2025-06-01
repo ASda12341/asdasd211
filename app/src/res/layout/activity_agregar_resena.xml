@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar Reseña"
+            android:textColor="@color/color_texto"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Película:"
+            android:textColor="@color/color_texto"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        
+        <Spinner
+            android:id="@+id/spinner_peliculas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/fondo_campo"
+            android:layout_marginBottom="16dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puntuación:"
+            android:textColor="@color/color_texto"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_marginBottom="16dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentario:"
+            android:textColor="@color/color_texto"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+        
+        <EditText
+            android:id="@+id/campo_comentario"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Escribe tu opinión..."
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:padding="12dp"
+            android:background="@drawable/fondo_campo"
+            android:textColor="@color/color_texto"
+            android:layout_marginBottom="20dp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Button
+                android:id="@+id/boton_cancelar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancelar"
+                android:background="@drawable/fondo_boton_secundario"
+                android:textColor="@color/color_texto"
+                android:layout_marginEnd="8dp" />
+            
+            <Button
+                android:id="@+id/boton_guardar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar"
+                android:background="@drawable/fondo_boton"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="8dp" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</ScrollView>
